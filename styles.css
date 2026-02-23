@@ -1,0 +1,30 @@
+/* brooo */
+body {
+  font-family: fantasy;
+  background-color: lightgrey
+}
+
+
+      p, h1, h2 {
+        color: indigo
+}
+
+      ul, li {
+        font style: italic
+}
+  
+       a {
+         color: red
+}
+      
+       a:hover {
+         color: blue
+}
+
+      .int-link, ol p {
+        font-weight:
+}
+        #mail-link {
+          color: blue
+} 
+    
