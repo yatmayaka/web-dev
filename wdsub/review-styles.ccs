@@ -1,0 +1,57 @@
+body {
+  margin: 0px;
+  font-size: 14px;
+  font-family: 'Nanum Myeongjo', san-serif;
+  background-color: #f2e3ea;
+  
+}
+
+
+h1, h2 {
+  font-family: Futuristic, san-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 2px 1px white;
+}
+h2 {border-radius: 5px;
+  border: solid 2px black;
+  border-radius: 1px;}
+
+div.card {
+  background-color: #e3a4c1;
+  margin-left: 75px;
+  margin-right:75px;
+  padding: .5rem;
+  border-radius: 8px;
+  border: solid 3px #332725;
+}
+div.dude {
+  
+  margin: 5px auto;
+  background-color: #f2e3ea;
+  margin-left: 75px;
+  margin-right:75px;
+  padding: .5rem;
+  border-radius: 8px;
+  border: solid 3px #332725;
+ 
+}
+
+hr {
+  margin-left: 75px;
+  Margin-right: 75px;
+  border-color: 332725;
+}
+
+
+div.footer {
+  margin-right: 75px
+}
+
+a {color: blue;
+  text-decoration: none
+          }
+a:hover 
+{
+  color: darkblue
+}
