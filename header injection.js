@@ -1,5 +1,5 @@
 let elem = document.createElement("div");
-elem.innerHTML = "<link rel='stylesheet' href='https://yatmayaka.github.io/web-dev/header.css'>"
+elem.innerHTML = "<link rel='stylesheet' href='https://mr-stamp.github.io/web-dev-1/header.css'>"
     >";
 document.body.prepend(elem);
 
