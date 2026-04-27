@@ -1,9 +1,10 @@
-let elem = document.createElement("div");
-elem.innerHTML = "<link rel="stylesheet" href="https://mr-stamp.github.io/web-dev-1/header.css">;
-document.body.prepend(elem);
+//let elem = document.createElement("div");
+//elem.innerHTML = "<link rel='stylesheet' href='https://yatmayaka.github.io/web-dev/header.css'>";
+//document.body.prepend(elem);
 
 
-fetch("https://yatmayaka.github.io/web-dev/globalheader.html")
-  .then((result) => result.text())
-  .then((text) => {elem.innerHTML = text;})
-  .catch((e) => console.error(e));
+//fetch("https://yatmayaka.github.io/web-dev/globalheader.html")
+  //.then((result) => result.text())
+  //.then((text) => {elem.innerHTML = text;})
+  //.catch((e) => console.error(e));
+let link = document.createElement("link"); link.rel = "stylesheet"; link.href = "https://yatmayaka.github.io/web-dev/header.css"; document.head.appendChild(link); let elem = document.createElement("div"); document.body.prepend(elem); fetch("https://yatmayaka.github.io/web-dev/globalheader.html") .then((result) => result.text()) .then((text) => { elem.innerHTML = text; }) .catch((e) => console.error(e));
