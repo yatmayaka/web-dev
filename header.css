@@ -9,10 +9,17 @@ a {
   text-decoration: none;
   font-size 120%;
 }
+
+#preheader{
+  background-color: rgba(225, 255, 255, 1);
+  margin: 0px;
+  
+}
 h1 {
-  width: 50%;
+  width: 100%;
   text-align: center;
-  margin: 10px auto;
+  margin: 0px auto;
+  background-color: white;
 }
 
 #nav-menu {
@@ -43,7 +50,7 @@ h1 {
 .nav-div ul {
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: #f2e3ea;
   list-style-type: none;
   padding-left: 0px;
   margin: 0px;
@@ -70,5 +77,97 @@ h1 {
 
 .nav-div:hover ul {
   display: block;
-  position:
+  position: static;
+}
+
+
+#bg-img {
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -99;
+  width: 100vw;
+    
+}
+
+
+#main-content {
+  margin: 0px 20%;
+  background-color: rgba(225, 225, 210, .7);
+    padding: 5px 10px 5px;
+}
+
+#footer {
+  background-color: rgb(250,10, 250);
+ display: flex;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  color: white;
+  
+}
+
+#published{
+  flex grow: 1;
+  text align: right;
+  margin: 0px 5%;
+}
+
+#adress {
+  flex grow: 1;
+  text align: left;
+  margin: 0px 5%;
+}
+
+.harvey-pic {
+  width: 190px;
+  float: right;
+  padding: 5px;
+  margin: 5px;
+  border: solid 2px black;
+}
+
+.harvey-pic img {
+  width: 100%;
+}
+
+.vertical-bar {
+  width: 2px;
+  background-color: white;
+  height: 60px;
+  align-self: center;
+  display: inline; 
+}
+
+.messi-pic {
+  width: 150px;
+  float: left;
+  padding: 5px;
+  margin: 5px;
+  border: solid 2px black;
+}
+
+.messi-pic img {
+  width: 100%;
+}
+
+h2 {
+ font-family: Futuristic, san-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 2px 1px white; 
+}
+
+.last-pic {
+  width: 230px;
+  float: left;
+  padding: 5px;
+  margin: 5px;
+  border: solid 2px black;
+}
+
+.last-pic img {
+  width: 100%;
+}
+.main-content {
+  margin: 5px 0px 0px;
 }
