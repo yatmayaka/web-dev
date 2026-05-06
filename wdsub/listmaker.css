@@ -1,0 +1,31 @@
+body{
+  margin: 0px;
+  font-size: 14px;
+  background-color: lightblue;
+  margin-left: 75px;
+  margin-right:75px;
+  padding: .5rem;
+  border-radius: 8px;
+  border: solid 3px #332725;
+}
+h1 {
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}
+
+button li {
+  background-color: rgba (0, 0, 0, 0);
+  border: 0px;
+  padding-right: 5px;
+}
+
+#content {
+  background-color: lightblue;
+}
+
+li {
+  text-align: none;
+}
+
