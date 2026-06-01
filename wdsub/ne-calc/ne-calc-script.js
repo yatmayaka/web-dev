@@ -2,8 +2,8 @@
 
 let urlParams = new URLSearchParams(window.location.search);
 
-const P1_STRATS = Number(urlParams.get("p1Strats"));
-const P2_STRATS = Number(urlParams.get("p2Strats"));
+const P1_NUM_STRATS = Number(urlParams.get("p1Strats"));
+const P2_NUM_STRATS = Number(urlParams.get("p2Strats"));
 
 const PAYOFF_CONTENTS = "(<input type='number'>,<input type='number'>)";
 
@@ -111,5 +111,5 @@ function compute() {
     }
   }
 }
-  
+
   
