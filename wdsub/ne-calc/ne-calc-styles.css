@@ -24,12 +24,11 @@ body {
   width: 60px;
 }
 
-
 .ne, .ne input {
   background-color: green;
-    font-weight: 900%;
+  font-weight: 900;
 }
 
 .eliminated, .eliminated input{
-  backgroundcolor: #555;
+  background-color: #555;
 }
